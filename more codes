@@ -1,0 +1,27 @@
+#a linear seaech algorithm
+#searches through a list step by step
+
+#the list we will search
+fruit_list=["apple","dragon fruit","mango","gooseberry","pear","banana","grape","mango"]
+
+#print the list to make sure it works
+print("Here is the list :",fruit_list)
+
+#here is the search item that we will seach for 
+search_item="dragon fruit"
+#how many items are in our list?
+list_length=len(fruit_list)
+print("Number of items in the list =",list_length)
+
+#the linear search.....ooohhhhh;)fascinating! :3
+for i in range(list_length):
+    if fruit_list[i]==search_item:
+        present=1
+        bumber_present=number_present+1
+        
+#after loop has finished we print the result 
+if present==1:
+    print("The search item is present in the list")
+    print(number_present, "times")
+else:
+    print("The search item is not present")
